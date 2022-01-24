@@ -36,7 +36,7 @@ function FormCard({ movieId }: Props) {
         //intercepta o submit
         event.preventDefault();
 
-        //event.target = formulário
+        //event.target = referência ao formulário
         const email = (event.target as any).email.value;
         const score = (event.target as any).score.value;
 
